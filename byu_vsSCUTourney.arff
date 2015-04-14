@@ -1,0 +1,49 @@
+% 1. Title: BYU vs Santa Clara WCC Tourney
+%
+% 2. Sources:
+%      (a) Creator: Matthew Freeman
+%      (b) Date: April 11, 2015
+
+@relation matchups
+
+@attribute location                               { h, a, n }
+@attribute points_for                             real
+@attribute points_against                         real
+@attribute field_goal_percent                     real
+@attribute free_throw_percent                     real
+@attribute three_point_percent                    real
+@attribute efficient_field_goal_percent           real
+@attribute points_per_weighted_shot               real
+@attribute turnover_rate                          real
+@attribute blocks                                 real
+@attribute fouls                                  real
+@attribute offensive_rebounds                     real
+@attribute total_rebounds                         real
+@attribute steals                                 real
+@attribute assists                                real
+@attribute possessions                            real
+@attribute offensive_points_per_possession        real
+@attribute defensive_points_per_possession        real
+@attribute opp_points_for                         real
+@attribute opp_points_against                     real
+@attribute opp_field_goal_percent                 real
+@attribute opp_free_throw_percent                 real
+@attribute opp_three_point_percent                real
+@attribute opp_efficient_field_goal_percent       real
+@attribute opp_points_per_weighted_shot           real
+@attribute opp_turnover_rate                      real
+@attribute opp_blocks                             real
+@attribute opp_fouls                              real
+@attribute opp_offensive_rebounds                 real
+@attribute opp_total_rebounds                     real
+@attribute opp_steals                             real
+@attribute opp_assists                            real
+@attribute opp_possessions                        real
+@attribute opp_offensive_points_per_possession    real
+@attribute opp_defensive_points_per_possession    real
+@attribute outcome                                { w, l }
+
+@data
+n,36,36,43.48,77.78,25,47.83,1.141,10.64,1,5,2,13,5,6,28.2,1.277,1.277,72.26470588,60.76470588,44.17352941,65.18235294,34.45882353,50.96470588,1.064411765,15.62647059,3.088235294,16.35294118,11.76470588,34.82352941,8.029411765,14.94117647,66.29411765,1.088235294,0.845588235,?
+
+

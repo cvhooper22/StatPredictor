@@ -1,0 +1,31 @@
+% 1. Title: 2015 BYU Season Averages
+%
+% 2. Sources:
+%      (a) Creator: Matthew Freeman
+%      (b) Date: April 6, 2015
+
+@relation matchups
+
+
+@attribute points_for                             real
+@attribute points_against                         real
+@attribute field_goal_percent                     real
+@attribute free_throw_percent                     real
+@attribute three_point_percent                    real
+@attribute efficient_field_goal_percent           real
+@attribute points_per_weighted_shot               real
+@attribute turnover_rate                          real
+@attribute blocks                                 real
+@attribute fouls                                  real
+@attribute offensive_rebounds                     real
+@attribute total_rebounds                         real
+@attribute steals                                 real
+@attribute assists                                real
+@attribute possessions							  real
+@attribute offensive_points_per_possession        real
+@attribute defensive_points_per_possession        real
+
+
+
+@data
+81.25806452,65.70967742,50.2516129,68.91612903,39.57419355,57.06774194,1.196129032,16.37419355,3.677419355,15.87096774,11.09677419,35.25806452,7.225806452,15.74193548,68.32258065,1.192258065,0.951612903

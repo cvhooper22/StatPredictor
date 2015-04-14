@@ -1,0 +1,49 @@
+% 1. Title: BYU at Portland
+%
+% 2. Sources:
+%      (a) Creator: Matthew Freeman
+%      (b) Date: April 11, 2015
+
+@relation matchups
+
+@attribute location                               { h, a, n }
+@attribute points_for                             real
+@attribute points_against                         real
+@attribute field_goal_percent                     real
+@attribute free_throw_percent                     real
+@attribute three_point_percent                    real
+@attribute efficient_field_goal_percent           real
+@attribute points_per_weighted_shot               real
+@attribute turnover_rate                          real
+@attribute blocks                                 real
+@attribute fouls                                  real
+@attribute offensive_rebounds                     real
+@attribute total_rebounds                         real
+@attribute steals                                 real
+@attribute assists                                real
+@attribute possessions                            real
+@attribute offensive_points_per_possession        real
+@attribute defensive_points_per_possession        real
+@attribute opp_points_for                         real
+@attribute opp_points_against                     real
+@attribute opp_field_goal_percent                 real
+@attribute opp_free_throw_percent                 real
+@attribute opp_three_point_percent                real
+@attribute opp_efficient_field_goal_percent       real
+@attribute opp_points_per_weighted_shot           real
+@attribute opp_turnover_rate                      real
+@attribute opp_blocks                             real
+@attribute opp_fouls                              real
+@attribute opp_offensive_rebounds                 real
+@attribute opp_total_rebounds                     real
+@attribute opp_steals                             real
+@attribute opp_assists                            real
+@attribute opp_possessions                        real
+@attribute opp_offensive_points_per_possession    real
+@attribute opp_defensive_points_per_possession    real
+@attribute outcome                                { w, l }
+
+@data
+a,33,41,34.29,70.0,25.0,37.14,0.830,16.57,1,7,9,21,7,6,36,0.911,1.132,70.29032258,67.61290323,44.69354839,71.19354839,38.73548387,50.87741935,1.087419355,18.11935484,4.516129032,18.5483871,10.29032258,32.80645161,5.580645161,14.96774194,66.77419355,1.053548387,0.960322581,?
+
+
